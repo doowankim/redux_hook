@@ -1,9 +1,10 @@
 import React from 'react';
+import Router from './Router';
 
 const App = () => {
   return (
     <div>
-      <div>안녕하세요</div>
+      <Router />
     </div>
   );
 };
